@@ -1,0 +1,6 @@
+sudo apt-get install bluetooth bluez bluez-tools rfkil 
+sudo rfkill list 
+بتشوف انو بلوتوث مطفي ومسوي no 
+sudo rfkill unblock bluetooth 
+sudo service bluetooth start 
+sudo apt-get install blueman

